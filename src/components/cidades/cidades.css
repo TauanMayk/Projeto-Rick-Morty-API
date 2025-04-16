@@ -1,0 +1,85 @@
+.titulo-cidades{
+    background-color: rgb(131, 191, 190);
+    color: #1d1d1d;
+    font-family: 'press-start-2p', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px rgb(243, 246, 243);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.container-cidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: linear-gradient(to bottom, rgba(153, 255, 204, 0.5), rgba(102, 204, 255, 0.6));
+    height: 45vh;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.lista-cidades{
+    display: flex;
+    gap: 20px;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.cidade-location{
+    background-color: #FFF;
+    color: #1d1d1d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    gap: 10px;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    max-width: 350px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+}
+
+.cidade-location:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.descricao{
+    display: flex;
+    padding-bottom: 5px;
+    text-align: center;
+    gap: 5px;
+}
+
+.name-location{
+    font-size: 19px;
+    text-shadow: 2px 2px 2px rgb(187, 224, 229);
+}
+
+.dimension{
+    font-size: 21px;
+    border-bottom: 1px solid #1d1d1d;
+    width: 100%;
+    text-align: center;
+    padding: 4px 0;
+}
+
+.type{
+    font-size: 18px;
+    text-shadow: 1px 1px 1px rgb(245, 210, 153);
+}

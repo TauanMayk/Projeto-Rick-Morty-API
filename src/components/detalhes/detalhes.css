@@ -1,0 +1,98 @@
+.container-detalhes{
+    max-width: 1500px;
+    height: 100%;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.container-personagens{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.personagem-selecionado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.personagem-selecionado p{
+    padding: 2px;
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+.nome-personagem{
+    font-size: 25px;
+    font-family: 'get-schwifty', sans-serif;
+    font-weight: bold;
+    color: #3d63d5;
+    text-shadow: 2px 2px 2px rgb(83, 146, 83);
+    margin-bottom: 12px;
+}
+
+.imagem-personagem{
+    width: 150px;
+    height: 150px;
+    border-radius: 70%;
+    border: 2px solid #1d1d1d;
+}
+
+.imagem-personagem:hover{
+    transform: scale(1.0);
+}
+
+.status{
+    font-size: 21px;
+    color: red;
+}
+
+.gender{
+    font-size: 19px;
+    color: blue;
+}
+
+.location{
+    font-size: 18px;
+    color: green;
+}
+
+.species{
+    font-size: 18px;
+    color: #5c3d7d;
+}
+
+.botao-fechar-container{
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background: rgba(35,35,35,.65);
+}
+
+.botao-fechar{
+    background-color: transparent;
+    color: gray;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+    height: 44px;
+    width: 46px;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.botao-fechar:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    transform: scale(1.1);
+}
+

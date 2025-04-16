@@ -1,0 +1,41 @@
+.dark-mode{
+    background: url(../../images/S4e2_2019-11-21-23h16m01s348.webp) no-repeat center center fixed;
+    background-size: cover;
+    transition: 0.3s all ease-in-out;
+}
+
+.botao-sol{
+    display: flex;
+    position: absolute;
+    right: 0;
+    justify-content: end;
+    padding-right: 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.4s all ease-in-out;
+}
+
+.botao-sol:hover{
+    transform: scale(1.1);
+}
+
+.imagem-botao-sol{
+    width: 80px;
+    height: 80px;
+}
+
+.dark-mode .imagem-botao-sol {
+    display: none;
+}
+
+.imagem-botao-lua{
+    display: none;
+}
+
+.dark-mode .imagem-botao-lua{
+    display: block;
+    width: 80px;
+    height: 80px;
+    transition: 0.4s all ease-in-out;
+}
