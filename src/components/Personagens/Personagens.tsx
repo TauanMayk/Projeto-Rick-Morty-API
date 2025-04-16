@@ -56,8 +56,8 @@ const fecharLightbox = () => {
       <main>
         <div className="container-image">
           <ul className="lista-personagens">
-            {especie === "Human"
-              ? personagensHumanosFiltrados?.map((personagem) => (
+            {especie === "Alien"
+              ? personagensAliensFiltrados?.map((personagem) => (
                   <>
                     <div key={personagem.id} className="image-avatar">
                       <img
@@ -85,7 +85,7 @@ const fecharLightbox = () => {
                     </div>
                   </>
                 ))
-              : personagensAliensFiltrados?.map((personagem) => (
+              : personagensHumanosFiltrados?.map((personagem) => (
                   <>
                     <div key={personagem.id} className="image-avatar">
                       <img
