@@ -4,7 +4,7 @@ Um projeto em React que consome a [Rick and Morty API](https://rickandmortyapi.c
 
 ## 🖼️ Demonstração
 
-![preview do projeto]![Screenshot_58](https://github.com/user-attachments/assets/5d5100d6-e935-483a-889e-6f5dae80b292)
+![Screenshot_58](https://github.com/user-attachments/assets/5d5100d6-e935-483a-889e-6f5dae80b292)
 
 
 ## 🚀 Funcionalidades
