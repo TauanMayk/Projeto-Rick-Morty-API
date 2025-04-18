@@ -1,4 +1,4 @@
-# 🌌 Rick and Morty Explorer
+# 🌌 Rick and Morty API
 
 Um projeto em React que consome a [Rick and Morty API](https://rickandmortyapi.com/) para exibir informações sobre personagens e cidades do universo da série. Desenvolvido com TypeScript e Vite, este app oferece recursos de busca, filtragem por espécie e modo escuro/claro.
 
