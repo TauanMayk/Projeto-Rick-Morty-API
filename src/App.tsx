@@ -1,5 +1,6 @@
 import './reset.css'
 import './global.css'
+import './responsive.css'
 import { useState } from 'react'
 import { Personagens } from './components/Personagens/Personagens'
 import { Cidades } from './components/cidades/cidades'
@@ -17,7 +18,7 @@ function App() {
       <Select setEspecie={setEspecie}/>
       <InputSearch busca={busca} setBusca={setBusca}/>
       <Personagens busca={busca} especie={especie}/>
-      <Cidades />
+      <Cidades/>
     </>
   )
 }

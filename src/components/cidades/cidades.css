@@ -8,7 +8,7 @@
     padding: 10px;
     display: flex;
     justify-content: center;
-    width: 60%;
+    width: 80%;
     border-radius: 10px;
     margin: 0 auto;
     margin-top: 20px;
@@ -17,22 +17,25 @@
 .container-cidades{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     background: linear-gradient(to bottom, rgba(153, 255, 204, 0.5), rgba(102, 204, 255, 0.6));
-    height: 45vh;
-    width: 70%;
+    height: 90%;
+    width: 90%;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     margin: 0 auto;
+    padding: 25px 0px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .lista-cidades{
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
     max-width: 100%;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .cidade-location{

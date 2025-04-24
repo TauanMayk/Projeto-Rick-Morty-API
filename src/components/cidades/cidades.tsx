@@ -7,7 +7,7 @@ export const Cidades = () => {
     return (
         <>
         <section className="container-cidades">
-            <h3 className="titulo-cidades">Cidades</h3>
+            <h3 className="titulo-cidades">Dimensões</h3>
                 <div className="lista-cidades">
                     <div className="cidade-location">
                         <p className="dimension">{response[0].dimension}</p>
@@ -38,6 +38,7 @@ export const Cidades = () => {
                         </div>
                     </div>
                 </div>
+                {/* <button className="button-cidades">Ver mais</button> */}
             </section>
         </>
     );
