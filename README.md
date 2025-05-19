@@ -54,9 +54,7 @@ npm run dev
 4. Acesse no navegador:
 
 ```
-
 http://localhost:5173
-
 ```
 
 ## 🛠️ Scripts disponíveis
