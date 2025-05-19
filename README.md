@@ -61,17 +61,17 @@ http://localhost:5173
 
 ## 🛠️ Scripts disponíveis
 
-| Comando         | Descrição                    |
+| Comando         |  Descrição                    |
 
 |-----------------|------------------------------|
 
-| `npm run dev`   | Inicia o servidor local       |
+| `npm run dev`   |  Inicia o servidor local       |
 
-| `npm run build` | Gera o build para produção    |
+| `npm run build` |  Gera o build para produção    |
 
-| `npm run preview` | Visualiza o build gerado    |
+| `npm run preview` |  Visualiza o build gerado    |
 
-| `npm run lint`  | Executa o linter do projeto   |
+| `npm run lint`  |  Executa o linter do projeto   |
 
 ## 📷 Créditos das imagens
 
