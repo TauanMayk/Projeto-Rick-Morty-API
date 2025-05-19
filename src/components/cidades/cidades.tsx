@@ -1,9 +1,9 @@
 import { getLocation } from "rickmortyapi";
 import './cidades.css'
-const cidades = await getLocation([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
-const response = cidades.data;
 
-export const Cidades = () => {
+export const Cidades = async () => {
+    const cidades = await getLocation([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+    const response = cidades.data;
     return (
         <>
         <section className="container-cidades">

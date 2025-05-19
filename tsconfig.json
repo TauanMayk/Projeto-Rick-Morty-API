@@ -1,15 +1,21 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" },
-    { "@components": "./src/components" },
-    { "@hooks": "./src/hooks" },
-    { "@services": "./src/services" },
-    { "@utils": "./src/utils" },
-    { "@styles": "./src/styles" }
-  ],
   "compilerOptions": {
-    "noImplicitAny": false
-  }
+    "composite": true,
+    "target": "ESNext",
+    "paths": {
+      "@components": ["./src/components"],
+    },
+  },
+  "references": [
+      { "path": "./tsconfig.app.json" },
+      { "path": "./tsconfig.node.json" }
+    ],
+  "paths": {
+    "@components": ["./src/components"],
+    "@hooks": ["./src/hooks"],
+    "@services": ["./src/services"],
+    "@utils": ["./src/utils"],
+    "@styles": ["./src/styles"]
+  },
+  "include": ["src"]
 } 

@@ -1,12 +1,14 @@
 import './select.css'
 import { getCharacters } from "rickmortyapi";
+
+export const Select = async ({setEspecie}: {setEspecie: (especie: string) => void}) => {
+
 const personagens = await getCharacters();
 const response = personagens.data;
 const results = response.results;
 const species = results?.map((personagem) => personagem.species);
 const speciesUnicos = Array.from(new Set(species));
 
-export const Select = ({setEspecie}: {setEspecie: (especie: string) => void}) => {
     return (
         <>
         <select className="selecionar-especie" onChange={(e) => {

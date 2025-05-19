@@ -1,5 +1,14 @@
 import "./detalhes.css";
 import { getCharacters, getEpisodes } from "rickmortyapi";
+
+export const Detalhes = async ({
+  personagemSelecionado,
+  fecharLightbox,
+}: {
+  personagemSelecionado: number;
+  fecharLightbox: () => void;
+}) => {
+
 const personagens = await getCharacters();
 const episodes = await getEpisodes();
 const response = personagens.data;
@@ -25,14 +34,6 @@ const arrayEpisodes = responseEpisodes?.results?.map((episode) => {
     episode: episode.episode,
   };
 });
-
-export const Detalhes = ({
-  personagemSelecionado,
-  fecharLightbox,
-}: {
-  personagemSelecionado: number;
-  fecharLightbox: () => void;
-}) => {
   const personagemSelecionadoFiltrado = arrayPersonagens?.find(
     (personagem) => personagem.id === personagemSelecionado
   );
